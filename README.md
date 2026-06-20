@@ -126,13 +126,18 @@ Emotion Prediction
 
 ## Results
 
-The model was able to learn meaningful patterns from speech recordings and classify emotions based on extracted audio features.
+The model was evaluated on a separate test dataset after feature extraction, preprocessing, and training.
 
-Evaluation was performed using accuracy scores, confusion matrices, and classification reports.
+### Model Performance
 
-**Test Accuracy:** 72%
+- Model: Support Vector Machine (SVM)
+- Features Used:
+  - MFCC
+  - Delta MFCC
+  - Delta-Delta MFCC
+- Test Accuracy: 72%
 
----
+The results demonstrate that meaningful emotional patterns can be extracted from speech recordings using traditional machine learning techniques. While there is room for improvement, the model was able to classify emotions with reasonable accuracy and provided valuable insights into speech-based emotion recognition.
 
 ## What I Learned
 
